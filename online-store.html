@@ -1,0 +1,257 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid System part 2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      section {
+        padding: 60px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><i class="bi bi-heart-fill"></i>BridesHeart!</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact us">Contact us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown link
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Location</a></li>
+                <li><a class="dropdown-item" href="#">Courier</a></li>
+                <li><a class="dropdown-item" href="#">Order</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home">
+      <!-- main image & intro text -->
+      <div class="p-5">
+        <div class="container-lg">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 text-center text-md-start">
+              <h1>
+                <div class="display-2">R45 000</div>
+                <div class="display-5 text-muted">Size:S-XL</div>
+              </h1>
+              <p class="text-danger">new arrival</p>
+              <p class="lead my-4 text-muted">
+                Made with imported fabric from Italy, this is one of the coolest
+                dresses a bride can have this summer.
+              </p>
+              <a href="#" class="btn btn-secondary btn-lg">Buy Now</a>
+            </div>
+            <div class="col-md-5 text-center d-none d-md-block">
+              <img class="img-fluid" src="first.jpg" alt="dress" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-5">
+        <div class="container-lg">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 text-center text-md-start">
+              <h1>
+                <div class="display-2">R15 000</div>
+                <div class="display-5 text-muted">Sizes:L-XXXL</div>
+              </h1>
+              <p class="lead my-4 text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae numquam adipisci odio nostrum, sequi, dolorem non
+                facere vel inventore ipsa modi quaerat ab nesciunt quo iure
+                provident temporibus reprehenderit eos!
+              </p>
+              <a href="#" class="btn btn-secondary btn-lg">Buy Now</a>
+            </div>
+            <div class="col-md-5 text-center d-none d-md-block">
+              <img
+                class="img-fluid"
+                src="secong.jpg.pagespeed.ic.zDgDDUcEzO.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- main image & intro text -->
+      <div class="p-5">
+        <div class="container-lg">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 text-center text-md-start">
+              <h1>
+                <div class="display-2">R30 000</div>
+                <div class="display-5 text-muted">Sizes:S-L</div>
+              </h1>
+              <p class="lead my-4 text-muted">
+                Made from imported fabric from Germany, this dress is one the
+                highest quality that is durable.
+              </p>
+              <a href="#" class="btn btn-secondary btn-lg">Buy Now</a>
+            </div>
+            <div class="col-md-5 text-center d-none d-md-block">
+              <img class="img-fluid" src="third.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Services">
+      <div
+        class=" m-3 p-3 rounded-pill border border-5 m-3 p-3 shadow-lg text-center fst-italic fw-bolder display-5">OUR SERVICES </div>
+      <br />
+      <div class="card-container">
+        <div class="card-item">
+          <img src="/laybuy.png" alt="" class="card-image" />
+          <div class="card-info">
+            <h3>Laybuy</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              sapiente!
+            </p>
+          </div>
+        </div>
+        <div class="card-item">
+          <img src="shopping.png" alt="" class="card-image" />
+          <div class="card-info">
+            <h3>Shopping</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore,
+              quod.
+            </p>
+          </div>
+        </div>
+        <div class="card-item">
+          <img src="delivery.webp" alt="" class="card-image" />
+          <div class="card-info">
+            <h3>Delivery</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque, aspernatur!
+            </p>
+          </div>
+        </div>
+        <div class="card-item">
+          <img src="gora.png" alt="" class="card-image" />
+          <div class="card-info">
+            <h3>Guarantee</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              non.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="Contact us">
+      <div class=" m-3 p-3 rounded-pill border border-5 m-3 p-3 shadow-lg text-center fst-italic fw-bolder display-5"> CONTACT US</div> 
+      <!-- Wrapper container -->
+<div class="container py-4">
+
+  <!-- Bootstrap 5 starter form -->
+  <form  method="POST" action="https://formspree.io/f/mknkarbd" id="contactForm" data-sb-form-api-token="API_TOKEN d">
+
+    <!-- Name input -->
+    <div class="mb-3">
+      <label class="form-label" for="name">Full name</label>
+      <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+      <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+    </div>
+
+    <!-- Email address input -->
+    <div class="mb-3">
+      <label class="form-label" for="emailAddress">Email Address</label>
+      <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+      <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+      <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+    </div>
+
+    <!-- Message input -->
+    <div class="mb-3">
+      <label class="form-label" for="message">Message</label>
+      <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+      <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+    </div>
+
+    <!-- Form submissions success message -->
+    <div class="d-none" id="submitSuccessMessage">
+      <div class="text-center mb-3">Form submission successful!</div>
+    </div>
+
+    <!-- Form submissions error message -->
+    <div class="d-none" id="submitErrorMessage">
+      <div class="text-center text-danger mb-3">Error sending message!</div>
+    </div>
+
+    <!-- Form submit button -->
+    <div class="d-grid">
+      <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+    </div>
+  </form>
+  
+
+</div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
