@@ -6,6 +6,11 @@
   height: 500px;
   text-align: center;
 }
+.background {
+  background-image: url('rose.jpg');
+  background-position: center;
+  /* background-repeat: no-repeat; */
+}
 .card-image {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -91,5 +96,9 @@
     100% {
         opacity: 1;
         transform: translate(0);
+    }
+    .background-image{
+      background-repeat:no-repeat;
+      
     }
 
